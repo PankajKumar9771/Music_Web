@@ -1,0 +1,432 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+:root {
+  --purple500: #281154;
+  --purple300: #270082;
+  --purple600: #1b0058;
+  --red609: #dc0000;
+  --body: #f9f6ff;
+}
+
+body,
+html {
+  scroll-behavior: smooth;
+  /*font-family: 'Bree Serif', serif;*/
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  justify-content: start;
+}
+
+header {
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 1);
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+
+  background-color: var(--purple300);
+  color: white;
+  height: 8.2rem;
+  z-index: 100;
+}
+
+nav ul {
+  list-style: none;
+  color: white;
+  display: inline-block;
+  margin: 15px 0;
+}
+
+nav li a {
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+  margin: 0 12px;
+}
+
+.logo {
+  font-size: 40px;
+  font-weight: bold;
+  align-self: center;
+  padding: 0px 200px 0px 0px;
+}
+
+nav li {
+  display: inline;
+}
+
+nav ul li {
+  border-bottom: 2px solid transparent;
+  transition: 1s ease-in;
+}
+
+nav ul li:hover {
+  border-bottom: 2px white solid;
+  transition: 1s ease-in;
+}
+
+/*  hero section */
+.hero {
+  background: url(hero_image.png);
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  display: grid;
+  place-content: center;
+  text-align: center;
+  background-position: center;
+  letter-spacing: 1.2px;
+}
+.heroh h1 {
+  font-size: 120px;
+}
+.heroh h3 {
+  font-size: 50px;
+  margin-top: 40px;
+}
+.heroh p {
+  margin-top: 20px;
+  font-size: 30px;
+  letter-spacing: 1.5px;
+}
+
+/*Music Sectiovsvsvsvs Section*/
+#music {
+  background-color: var(--purple500);
+  padding: 30px;
+}
+.music {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 25px;
+  letter-spacing: 1.5px;
+}
+.ipad img {
+  height: 600px;
+  position: relative;
+  top: 400px;
+  margin-top: -400px;
+}
+
+.music h2 {
+  font-size: 35px;
+}
+.music h3 {
+  font-size: 25px;
+}
+.music h4 {
+  font-size: 20px;
+}
+button {
+  font-size: 20px;
+  padding: 15px 10px;
+  border: none;
+  transition: 0.2s ease-in-out;
+}
+button:hover {
+  transition: 0.3s ease-in-out;
+  opacity: 0.9;
+  box-shadow: 3px 2px 1px rgba(0, 0, 0, 0.5);
+}
+.primary_btn {
+  background-color: var(--red609);
+
+  color: white;
+}
+.music p {
+  font-size: 20px;
+}
+
+/*Laptop secgghvhggyyfcy uhhhhh section*/
+#laptop {
+  margin-top: 400px;
+}
+.laptop {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 30px;
+}
+.laptop h4 {
+  font-size: 20px;
+  letter-spacing: 1.2px;
+  font-weight: 400;
+}
+.laptop h3 {
+  font-size: 25px;
+  letter-spacing: 1.2px;
+}
+.laptopP img {
+  height: 500px;
+}
+.secondary_btn {
+  background-color: var(--purple500);
+  color: white;
+}
+
+#vdo {
+  margin-top: 50px;
+  background: url(video.png);
+  min-height: 800px;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  display: grid;
+  place-content: center;
+  text-align: center;
+  background-position: center;
+  letter-spacing: 1.2px;
+}
+.video {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  margin-top: -200px;
+}
+.video h3 {
+  font-size: 25px;
+  letter-spacing: 1.2px;
+}
+.video p {
+  letter-spacing: 1.2px;
+}
+
+/*  Gift CARD  VGVVBHHHHH CARD*/
+#card {
+  margin-top: 80px;
+  letter-spacing: 1.2px;
+}
+.giftcard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  line-height: 20.2px;
+}
+.under {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  gap: 20px;
+}
+.under p {
+  font-weight: 400px;
+}
+.nbtn {
+  width: 100px;
+}
+
+/*Second   last footer */
+.last {
+  margin-top: 100px;
+  color: white;
+  background-color: var(--purple600);
+}
+
+.footage {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0px;
+}
+.footage li {
+  list-style: none;
+}
+.heading {
+  font-size: 25px;
+}
+
+.link li {
+  margin-top: 9px;
+}
+
+.down {
+  text-align: center;
+  padding: 20px;
+  background-color: var(--purple300);
+  color: white;
+  font-size: 20px;
+}
+
+section {
+  scroll-margin: 130px;
+}
+
+@media (max-width: 850px) {
+  /*Navigation bar */
+  .logo {
+    padding: 0px;
+  }
+
+  header {
+    flex-direction: column;
+    height: 4rem;
+  }
+
+  nav {
+    flex-direction: column;
+  }
+
+  .logo {
+    font-size: 22px;
+  }
+
+  nav ul {
+    margin: 3px 0px;
+  }
+
+  nav li a {
+    font-size: 10px;
+  }
+
+  .ipad img {
+    height: 300px;
+  }
+  .laptop img {
+    height: 300px;
+  }
+
+  .heroh h1 {
+    font-size: 40px;
+  }
+  .heroh h3 {
+    font-size: 20px;
+  }
+  .heroh p {
+    font-size: 15px;
+    margin-top: 30px;
+    letter-spacing: 1.2px;
+  }
+
+  .giftcard {
+    flex-direction: column;
+  }
+  .under {
+    padding: 4px 14px;
+  }
+  .gift img {
+    height: 300px;
+  }
+
+  .heading {
+    font-size: 25px;
+  }
+  .footage {
+    gap: 20px;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding: 4px 15px;
+  }
+  #laptop {
+    margin-top: 250px;
+  }
+
+  #music {
+    scroll-margin: 60px;
+  }
+  #vdo {
+    scroll-margin: 60px;
+  }
+}
+
+@media (max-width: 510px) {
+  /*Navigation bar */
+  .logo {
+    padding: 0px;
+  }
+
+  header {
+    flex-direction: column;
+    height: 4rem;
+  }
+
+  nav {
+    flex-direction: column;
+  }
+
+  .logo {
+    font-size: 22px;
+  }
+
+  nav ul {
+    margin: 3px 0px;
+  }
+
+  nav li a {
+    font-size: 10px;
+  }
+
+  .ipad img {
+    height: 200px;
+  }
+  .laptop img {
+    height: 200px;
+  }
+
+  .heroh h1 {
+    font-size: 40px;
+  }
+  .heroh h3 {
+    font-size: 20px;
+  }
+  .heroh p {
+    font-size: 15px;
+    margin-top: 30px;
+    letter-spacing: 1.2px;
+  }
+
+  .giftcard {
+    flex-direction: column;
+  }
+  .under {
+    padding: 4px 14px;
+  }
+  .gift img {
+    height: 200px;
+  }
+
+  .heading {
+    font-size: 25px;
+  }
+  .footage {
+    gap: 20px;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding: 4px 15px;
+  }
+  #laptop {
+    margin-top: 250px;
+  }
+
+  #music {
+    scroll-margin: 60px;
+  }
+  #vdo {
+    scroll-margin: 60px;
+  }
+}
