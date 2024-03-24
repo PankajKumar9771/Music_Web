@@ -78,7 +78,7 @@ nav ul li:hover {
 
 /*  hero section */
 .hero {
-  background: url(hero_image.png);
+  background: url(/project6/images/hero_image.png);
   height: 100vh;
   width: 100vw;
   background-repeat: no-repeat;
@@ -185,7 +185,7 @@ button:hover {
 
 #vdo {
   margin-top: 50px;
-  background: url(video.png);
+  background: url(/project6/images/video.png);
   min-height: 800px;
   width: 100vw;
   background-repeat: no-repeat;
